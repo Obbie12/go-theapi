@@ -13,10 +13,6 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
-const (
-	DefaultLimit = 10
-)
-
 type R struct {
 	Respo []Respo
 }
